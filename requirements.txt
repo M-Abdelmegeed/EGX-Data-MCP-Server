@@ -1,0 +1,5 @@
+httpx>=0.28.1
+langchain>=0.3.22
+langchain-community>=0.3.20
+mcp[cli]>=1.6.0
+tradingview-ta>=3.3.0
