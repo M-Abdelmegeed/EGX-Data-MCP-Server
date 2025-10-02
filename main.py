@@ -8,7 +8,7 @@ from egx import validate_symbol, format_indicators
 from precious_metals import get_gold_price, get_silver_price
 
 # Initialize FastMCP server
-mcp = FastMCP("egx_stock_tools", validate_schemas=False)
+mcp = FastMCP("egx_stock_tools")
 
 @mcp.tool()
 def stock_price_egx(symbol: str) -> str:
