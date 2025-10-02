@@ -11,3 +11,9 @@ dependencies = [
     "mcp[cli]>=1.6.0",
     "tradingview-ta>=3.3.0",
 ]
+
+[tool.setuptools]
+py-modules = ["egx", "main", "precious_metals", "tools"]
+
+[project.scripts]
+egx-mcp = "main:main"
